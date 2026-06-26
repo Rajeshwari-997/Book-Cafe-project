@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="EN-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Build a webpage using HTML,CSS and JAVASCRIPT">
+        <title>Book Cafe</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1 class="page-name">Book Cafe</h1>
+        <div class="trans-screen">
+            <div class="popupbox">
+                <h1>Add Book</h1>
+                <input class="book-title" placeholder="Enter Book Name">
+                <input class="book-author" placeholder="Enter Author Name">
+                <textarea class="about-book" placeholder="Discription"></textarea>
+                <button class="submit-btn">Submit</button>
+                <button class="cancel-btn">Cancel</button>
+            </div>
+        </div>
+        <div class="container">
+            <div class="inside-container">
+                <h1>Wings of Fire</h1>
+                <h3>A.P.J Abdul Kalam</h3>
+                <p>The book doesn't just talk about success.It spends a lot of time on failures,rejection and learning.
+                    That's what makes it feel genuine and motivating.
+                    Dreams are not what you see in sleep,dreams are what keep you awake.It was my Favourite line  of the book </p>
+                    <button onclick="deleteItem(event)" class="deleteButton">Delete</button>
+            </div>
+        </div>
+        <button class="btn">+</button>
+        <script src="main.js"></script>
+    </body>
+</html>
